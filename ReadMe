@@ -1,0 +1,15 @@
+This program is a macro variable developed in SAS Base to conduct preliminary data exploration. The goal is to be able to explore different datasets. 
+
+For the purpose of this project, we used the Rental Housing Dataset from Kaggle available here: https://www.kaggle.com/datasets/iamsouravbanerjee/house-rent-prediction-dataset
+
+Minimal datacleaning was necessary for this project, however, we did separate the "Floors" category into 2 variables.
+
+Originally, the data would keep this information as "Floor 3 of 10" (for example). We separated this to become Floor "3" and Total Floors "10". 
+
+This was to reduce the number of categories in this variable, which originally had over 100 values, and to help with future modelling. 
+
+The cleaned dataset has been included in this repository.
+
+The first program, called "CreateTable", is used to generate a SAS table for this specific case. 
+
+The second program, "TermProject", is our macro variable which conducts summary statistic and distribution analysis on our dataset.
