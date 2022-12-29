@@ -12,4 +12,6 @@ The cleaned dataset has been included in this repository.
 
 The first program, called "CreateTable", is used to generate a SAS table for this specific case. 
 
-The second program, "TermProject", is our macro variable which conducts summary statistic and distribution analysis on our dataset.
+The second program, "NumExplore", is our macro variable which conducts summary statistic and distribution analysis on our dataset.
+
+Please keep in mind that the library locations will need to be changed to your specific device if you choose to use this program.
