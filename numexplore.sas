@@ -1,4 +1,3 @@
-*Term Project;
 
 *Create the macro and create the macro variables;
 %macro numexplore (lib=, /*location of library for dataset*/
